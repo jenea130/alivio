@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -7,10 +8,37 @@
     <link rel="stylesheet" href="style.css">
     <link rel="icon" href="assets/favicon.png" type="image/png">
 </head>
+
 <body>
-<!-- width="81" height="24" -->
-<svg>
-    <use href="assets/sprites.svg#logo-icon"></use>
-</svg>
+    <header class="header">
+        <div class="container">
+            <div class="header__wrapper">
+                <svg class="logo">
+                    <use href="assets/sprites.svg#logo-icon"></use>
+                </svg>
+                <nav class="header__menu">
+                    <ul class="header__list">
+                        <li class="header__item">
+                            <a href="#" class="header__link">Why Alivio</a>
+                        </li>
+                        <li class="header__item">
+                            <a href="#" class="header__link">Solutions</a>
+                        </li>
+                        <li class="header__item">
+                            <a href="#" class="header__link">Community</a>
+                        </li>
+                        <li class="header__item">
+                            <a href="#" class="header__link">Pricing</a>
+                        </li>
+                    </ul>
+                </nav>
+                <div class="header__actions">
+                    <button type="button" class="btn btn--signin">Sign In</button>
+                    <button type="button" class="btn">Start Trial</button>
+                </div>
+            </div>
+        </div>
+    </header>
 </body>
+
 </html>
